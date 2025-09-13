@@ -31,8 +31,8 @@ A modern REST API built with FastAPI and NeonDB (PostgreSQL), featuring user man
 1. **Clone the repository**:
 
    ```bash
-   git clone <repository-url>
-   cd fastapi-neon-demo
+   git clone https://github.com/brijeshdevio/FastAPI
+   cd FastAPI
    ```
 
 2. **Create a virtual environment**:
@@ -43,9 +43,13 @@ A modern REST API built with FastAPI and NeonDB (PostgreSQL), featuring user man
    ```
 
 3. **Install dependencies**:
+
    ```bash
    pip install -r requirements.txt
    ```
+
+   ```
+
    ```
 
 4. **Set up environment variables**:
@@ -151,7 +155,7 @@ curl -X POST "http://localhost:8000/feedback/" \
 ## 📁 Project Structure
 
 ```
-fastapi-neon-demo/
+FastAPI/
 ├── main.py          # FastAPI application and API endpoints
 ├── models.py        # SQLAlchemy database models
 ├── db.py           # Database configuration and connection
